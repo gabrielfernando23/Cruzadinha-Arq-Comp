@@ -1,0 +1,78 @@
+.ipt-FLASH input{
+    display: flex;
+    font-size: 20px;
+    width: 15px;
+    flex-direction: column;
+}
+
+.ipt-DMA input{
+    font-size: 20px;
+    width: 15px;
+}
+
+.ipt-DUALCORE input{
+    display: flex;
+    font-size: 20px;
+    width: 15px;
+    flex-direction: column;
+}
+
+.ipt-ULA input{
+    font-size: 20px;
+    width: 15px;
+}
+
+.ipt-ROM input{
+    display: flex;
+    font-size: 20px;
+    width: 15px;
+    flex-direction: column;
+}
+
+.ipt-CS input{
+    font-size: 20px;
+    width: 15px;
+}
+
+.ipt-EPROM input{
+    display: flex;
+    font-size: 20px;
+    width: 15px;
+    flex-direction: column;
+}
+
+.ipt-RAM input{
+    font-size: 20px;
+    width: 15px;
+}
+
+.ipt-CPU input{
+    display: flex;
+    font-size: 20px;
+    width: 15px;
+    flex-direction: column;
+}
+
+.ipt-REGISTRADORES input{
+    font-size: 20px;
+    width: 15px;
+}
+
+.ipt-MEMORIADEMASSA input{
+    display: flex;
+    font-size: 20px;
+    width: 15px;
+    flex-direction: column;
+}
+
+.ipt-DATABUS input{
+    font-size: 20px;
+    width: 15px;
+}
+
+.ipt-QUADCORE input{
+    display: flex;
+    font-size: 20px;
+    width: 15px;
+    flex-direction: column;
+}
