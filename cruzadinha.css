@@ -1,0 +1,142 @@
+td {
+    border: 2px solid  rgb(66, 11, 11);
+    width: 30px;
+    height: 30px;
+    border-radius: 5%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    color: rgb(218, 211, 148);
+    font-weight: 600;
+}
+
+.box-dicas {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: rgb(66, 11, 11);
+    flex-direction: column;
+    margin-left: 15px;
+    border-radius: 5%;
+    color: rgb(218, 211, 148);
+}
+.box-dicas:hover{top:-20px; 
+    box-shadow:0 10px 20px rgb(0, 0, 0);
+    -webkit-filter:sepia(50%);
+     transition: 1s;}
+ td:hover{top:-20px; 
+        box-shadow:0 2px 19px rgb(0, 0, 0);
+        -webkit-filter:sepia(50%);
+         transition: 1s;}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250vh;
+    background-color: rgb(218, 211, 148);
+   
+}
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tittle-dicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    margin-top: 5%;
+}
+.dicas {
+    height: 85%;
+    width: 85%;
+    font-size: 132%;
+    margin-top: 2.5%;
+    margin-left: 40px;
+    margin-bottom: 5%;
+}
+
+
+.cruzadinha{
+    margin-top: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+input {
+    border: 4px rgb(66, 11, 11) solid;
+    color: rgb(66, 11, 11) solid;
+    height: 40px;
+    width: 100vw;
+}
+
+.container form{
+    display: flex;
+    margin-bottom: 30vh;
+    justify-content: center;
+    /* margin-left: 20vw; */
+    box-shadow:0 1px 10px rgb(0, 0, 0);
+}
+
+.container .entrada{
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+}
+
+.container .entrada span{
+    margin-top: 15vh;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    /* margin-left: 15vw; */
+}
+
+sup{
+    position: absolute;
+    color: rgb(66, 11, 11);
+    opacity: 70%;
+}
+
+
+td:empty {
+    background-color: rgb(63, 1, 1);
+}
+
+.container .boas-vindas{
+    width: 30vw;
+    height: 30%;
+    margin-top: 10%;
+    background-color: rgb(66, 11, 11);;
+    border-radius: 15px;
+    color:rgb(218, 211, 148);;
+    padding: 2vh 2vw;
+    margin-left: 10vw;
+    display: flex;
+    box-shadow:0 2px 19px rgb(0, 0, 0);
+}
+
+.container .texto-entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .texto-entrada span{
+    font-size: 160%;
+    font-weight: 700;
+    text-align: center;
+    padding:   15px 5px ;
+}
